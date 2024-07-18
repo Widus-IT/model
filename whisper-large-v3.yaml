@@ -14,7 +14,6 @@ config_file: |
     max_new_tokens: 128
     chunk_length_s: 30
     batch_size: 16
-    do_normalize: True
 
 files:
 - filename: ggml-whisper-large-v3.bin
