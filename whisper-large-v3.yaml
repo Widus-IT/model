@@ -12,11 +12,6 @@ config_file: |
   parameters:
     model: ggml-whisper-large-v3.bin
 
-parameters:
-  max_new_tokens: 128
-  chunk_length_s: 30
-  batch_size: 16
-  
 files:
 - filename: ggml-whisper-large-v3.bin
   sha256: 64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2
